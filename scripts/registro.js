@@ -54,7 +54,7 @@ function validarCorreo(text, min, max){
     }
     let trimmedText = text.trim();
     if(trimmedText.length >= min && trimmedText.length <= max){
-        return true;
+        return true; //validar correo de alguna forma...
     }else{
         return false;
     }
