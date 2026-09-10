@@ -1,0 +1,27 @@
+body{
+    background-image: url('https://i.redd.it/a-library-that-i-made-v0-rbued4durtc81.png?width=1920&format=png&auto=webp&s=9d1a6987d3cf40239e808a6661f05c20493c355a'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: 700px;
+    font-family: 'Minecraft' sans-serif;
+    font-size: 30px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 50px;
+    border-bottom: 0.5px solid #dfdfdf;
+    flex-wrap: wrap;
+}
+
+.logo{
+    height: 60px;
+    width: 150px;
+}
+
+
+.nav-wrapper{
+    background-color: #2E2D2D;
+}   

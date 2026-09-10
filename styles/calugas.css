@@ -1,0 +1,29 @@
+.caluga{
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.calugas-ajsutadas{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    width: 1200px;
+    gap: 20px;
+}
+
+.caluga img{
+    width: 80%;
+}
+
+@media(max-width: 1200px){
+    .calugas-ajsutadas{
+        width: 90vw;
+    }
+}
