@@ -3,25 +3,48 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    font-weight: 700px;
-    font-family: 'Minecraft' sans-serif;
-    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Minecraft', sans-serif;
+    font-size: 24px;
+    color: #b1b0b0;
+    margin: 0;
 }
 header{
+    background-color: rgba(46, 45, 45, 0.9);
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: space-between;
     gap: 50px;
-    border-bottom: 0.5px solid #dfdfdf;
+    border-bottom: 1px solid    #dfdfdf;
     flex-wrap: wrap;
 }
 
 .logo{
     height: 60px;
-    width: 150px;
+    width: 140px;
+}
+    
+/* Estilos de productos */
+.contenedor-productos {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
 }
 
+.producto {
+    background-color: #222222;
+    border: 2px solid green;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+}
 
-.nav-wrapper{
-    background-color: #2E2D2D;
-}   
+.producto button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
